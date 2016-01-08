@@ -1,7 +1,7 @@
 ---
 homebrew_cask_repositories:
-  - caskroom/homebrew-cask
-  - caskroom/homebrew-versions
+  - caskroom/cask
+  - caskroom/versions
 
 homebrew_cask_packages:
   - { name: alfred }
@@ -20,14 +20,14 @@ homebrew_cask_packages:
   - { name: visual-studio-code }
   - { name: sublime-text3 }
   - { name: wireshark }
-#  - { name: inkscape }
-#  - { name: gimp }
-#  - { name: mactex }
-#  - { name: thunderbird }
-#  - { name: bittorrent-sync }
-#  - { name: rubymine }
-#  - { name: openoffice }
-#  - { name: blender }
-#  - { name: magicprefs }
-#  - { name: skitch }
-#  - { name: gyazo }
+  # - { name: inkscape }
+  # - { name: gimp }
+  # - { name: mactex }
+  # - { name: thunderbird }
+  # - { name: bittorrent-sync }
+  # - { name: rubymine }
+  # - { name: openoffice }
+  # - { name: blender }
+  # - { name: magicprefs }
+  # - { name: skitch }
+  # - { name: gyazo }

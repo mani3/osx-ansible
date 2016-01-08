@@ -4,7 +4,7 @@
 # 2. Check agreement xcode license
 #   $ sudo xcodebuild -license
 # 3. Run this script
-#   $ ./osx.sh
+#   $ ./setup.sh
 #
 
 # Install homebrew
@@ -14,6 +14,7 @@ else
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# Install ansible
 brew update
 brew install python
 brew install ansible

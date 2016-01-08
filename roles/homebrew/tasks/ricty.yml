@@ -1,7 +1,0 @@
----
-- name: Ensure the ricty font installed
-  homebrew: name=ricty state=latest
-
-- name: Copy to $HOME/Library/Fonts
-  command: >
-    cp $(brew --prefix ricty)/share/fonts/Ricty*.ttf ~/Library/Fonts && fc-cache -vf

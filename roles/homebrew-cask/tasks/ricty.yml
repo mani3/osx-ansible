@@ -1,0 +1,16 @@
+---
+- name: Ensure xquartz installed
+  homebrew_cask: name=xquartz state=present
+
+- name: Ensure the ricty font installed
+  homebrew: name=ricty state=latest
+
+- name: Copy to $HOME/Library/Fonts
+  shell: cp $(brew --prefix ricty)/share/fonts/Ricty*.ttf ~/Library/Fonts
+  environment:
+    PATH: /usr/local/bin/:{{ ansible_env.PATH }}
+
+- name: Update font information cache files
+  shell: fc-cache -vf
+  environment:
+    PATH: /usr/local/bin/:{{ ansible_env.PATH }}
