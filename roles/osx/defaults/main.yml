@@ -1,0 +1,116 @@
+---
+osx_defaults:
+  # Automatically hide and show the Dock
+  - {
+    domain: com.apple.dock,
+    key: autohide,
+    type: bool,
+    value: true,
+  }
+  # Make Dock icons of hidden applications translucent
+  - {
+    domain: com.apple.dock,
+    key: showhidden,
+    type: bool,
+    value: false,
+  }
+  # Set a fast keyboard repeat rate
+  - {
+    domain: NSGlobalDomain,
+    key: KeyRepeat,
+    type: int,
+    value: 0,
+  }
+  # Avoid creating .DS_Store files on network volumes
+  - {
+    domain: com.apple.desktopservices,
+    key: DSDontWriteNetworkStores,
+    type: bool,
+    value: true,
+  }
+  # Disable the warning when changing a file extension
+  - {
+    domain: com.apple.finder,
+    key: FXEnableExtensionChangeWarning,
+    type: bool,
+    value: false,
+  }
+  # Finder: show all filename extensions true/false
+  - {
+    domain: NSGlobalDomain,
+    key: AppleShowAllExtensions,
+    type: bool,
+    value: true,
+  }
+  # Show dot files
+  - {
+    domain: com.apple.finder,
+    key: AppleShowAllFiles,
+    type: bool,
+    value: true,
+  }
+  # Only use UTF-8 in Terminal.app
+  - {
+    domain: com.apple.terminal,
+    key: StringEncodings,
+    type: array,
+    value: 4,
+  }
+  # Disable the scroll direction natural
+  - {
+    domain: NSGlobalDomain,
+    key: com.apple.swipescrolldirection,
+    type: bool,
+    value: false,
+  }
+  # Set the fastest track speed 
+  - {
+    domain: NSGlobalDomain,
+    key: com.apple.trackpad.scaling,
+    type: float,
+    value: 3,
+  }
+  # Enable the swipe gesture
+  - {
+    domain: com.apple.AppleMultitouchTrackpad,
+    key: Clicking,
+    type: int,
+    value: 1,
+  }
+  - {
+    domain: com.apple.driver.AppleBluetoothMultitouch.trackpad,
+    key: Clicking,
+    type: int,
+    value: 1,
+  }
+  # Enable the tap to click
+  - {
+    domain: NSGlobalDomain,
+    key: com.apple.mouse.tapBehavior,
+    type: int,
+    value: 1,
+  }
+  # Enable the secondary click
+  - {
+    domain: NSGlobalDomain,
+    key: com.apple.trackpad.enableSecondaryClick,
+    type: int,
+    value: 1,
+  }
+
+osx_defaults_current_host:
+  # Enable the tap to click required "-currentHost" option
+  - {
+    domain: NSGlobalDomain,
+    key: com.apple.mouse.tapBehavior,
+    type: int,
+    value: 1,
+  }
+  # Enable the secondary click required "-currentHost" option
+  - {
+    domain: NSGlobalDomain,
+    key: com.apple.trackpad.enableSecondaryClick,
+    type: int,
+    value: 1,
+  }
+

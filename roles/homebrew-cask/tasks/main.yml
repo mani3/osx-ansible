@@ -1,0 +1,18 @@
+---
+- name: Ensure homebrew-cask repositories tapped
+  homebrew_tap: tap={{ item }} state=present
+  with_items: homebrew_cask_repositories
+  when: homebrew_cask_repositories
+
+- name: Update homebrew
+  homebrew: update_homebrew=yes
+
+- name: Ensure brew-cask installed
+  homebrew: name=brew-cask state=latest
+
+- name: Ensure the homebrew cask packages installed
+  homebrew_cask:
+    name={{ item.name }}
+    state={{ item.state | default('latest')}}
+  with_items: homebrew_cask_packages
+  when: homebrew_cask_packages

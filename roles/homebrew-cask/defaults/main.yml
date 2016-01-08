@@ -1,0 +1,33 @@
+---
+homebrew_cask_repositories:
+  - caskroom/homebrew-cask
+  - caskroom/homebrew-versions
+
+homebrew_cask_packages:
+  - { name: alfred }
+  - { name: google-chrome }
+  - { name: dropbox }
+  - { name: evernote }
+  - { name: iterm2 }
+  - { name: google-japanese-ime }
+  - { name: karabiner }
+  - { name: android-studio }
+  - { name: mysqlworkbench }
+  - { name: vagrant }
+  - { name: virtualbox }
+  - { name: ifunbox }
+  - { name: firefox }
+  - { name: visual-studio-code }
+  - { name: sublime-text3 }
+  - { name: wireshark }
+#  - { name: inkscape }
+#  - { name: gimp }
+#  - { name: mactex }
+#  - { name: thunderbird }
+#  - { name: bittorrent-sync }
+#  - { name: rubymine }
+#  - { name: openoffice }
+#  - { name: blender }
+#  - { name: magicprefs }
+#  - { name: skitch }
+#  - { name: gyazo }

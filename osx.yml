@@ -1,0 +1,7 @@
+---
+- hosts: server
+  roles:
+    - homebrew
+    - homebrew-cask
+    - osx
+
