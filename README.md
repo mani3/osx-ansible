@@ -4,6 +4,7 @@
 
 1. Install Xcode.app
 2. Agree license this command:
+
   ```
   $ sudo xcodebuild -license
   ```
