@@ -22,7 +22,7 @@ homebrew_cask_packages:
   - { name: wireshark }
   # - { name: inkscape }
   # - { name: gimp }
-  # - { name: mactex }
+  - { name: mactex }
   # - { name: thunderbird }
   # - { name: bittorrent-sync }
   # - { name: rubymine }

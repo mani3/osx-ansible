@@ -1,5 +1,6 @@
 ---
 homebrew_repositories:
+  - caskroom/cask
   - homebrew/binary
   - homebrew/versions
   - sanemat/font
