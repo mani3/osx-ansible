@@ -20,6 +20,7 @@ homebrew_cask_packages:
   - { name: visual-studio-code }
   - { name: sublime-text3 }
   - { name: wireshark }
+  - { name: slack }
   # - { name: inkscape }
   # - { name: gimp }
   - { name: mactex }

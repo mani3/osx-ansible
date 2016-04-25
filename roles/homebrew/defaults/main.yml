@@ -4,6 +4,8 @@ homebrew_repositories:
   - homebrew/binary
   - homebrew/versions
   - sanemat/font
+  - homebrew/python
+  - homebrew/science
 
 homebrew_packages:
   - { name: brew-cask }
@@ -21,7 +23,10 @@ homebrew_packages:
   - { name: zsh }
   - { name: peco }
   - { name: python }
+  - { name: python3 }
   - { name: pyenv-virtualenv }
+  - { name: numpy, install_option: with-python3 }
+  - { name: opencv3, install_option: with-python3 }
   # - { name: mysql }
   # - { name: postgresql }
   - { name: rbenv }
