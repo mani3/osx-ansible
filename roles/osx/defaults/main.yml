@@ -102,14 +102,14 @@ osx_defaults:
     domain: NSGlobalDomain,
     key: KeyRepeat,
     type: int,
-    value: 0.015,
+    value: 2,
   }
   # Enable delay until repeat is 200ms
   - {
     domain: NSGlobalDomain,
     key: InitialKeyRepeat,
     type: int,
-    value: 0.2,
+    value: 15,
   }
 
 osx_defaults_current_host:
