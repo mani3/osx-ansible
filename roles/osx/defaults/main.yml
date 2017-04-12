@@ -97,6 +97,20 @@ osx_defaults:
     type: int,
     value: 1,
   }
+    # Enable key repeat rate is 15ms
+  - {
+    domain: NSGlobalDomain,
+    key: KeyRepeat,
+    type: int,
+    value: 0.015,
+  }
+  # Enable delay until repeat is 200ms
+  - {
+    domain: NSGlobalDomain,
+    key: InitialKeyRepeat,
+    type: int,
+    value: 0.2,
+  }
 
 osx_defaults_current_host:
   # Enable the tap to click required "-currentHost" option
@@ -113,4 +127,3 @@ osx_defaults_current_host:
     type: int,
     value: 1,
   }
-
