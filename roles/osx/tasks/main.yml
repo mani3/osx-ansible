@@ -1,11 +1,11 @@
 - name: Set the osx defaults
   command: >
-    defaults write {{ item.domain }} {{ item.key }} -{{ item.type }} {{ item.value }}
-  with_items: osx_defaults
+   defaults write {{ item.domain }} {{ item.key }} -{{ item.type }} {{ item.value }}
+  with_items: "{{ osx_defaults | default([]) }}"
   when: osx_defaults
 
 - name: Set the osx defaults with the current host
   command: >
     defaults -currentHost write {{ item.domain }} {{ item.key }} -{{ item.type }} {{ item.value }}
-  with_items: osx_defaults_current_host
+  with_items: "{{ osx_defaults_current_host | default([]) }}"
   when: osx_defaults_current_host

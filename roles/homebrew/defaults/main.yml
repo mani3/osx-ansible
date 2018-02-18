@@ -1,14 +1,9 @@
 ---
 homebrew_repositories:
   - caskroom/cask
-  - homebrew/binary
-  - homebrew/versions
   - sanemat/font
-  - homebrew/python
-  - homebrew/science
 
 homebrew_packages:
-  - { name: brew-cask }
   - { name: ansible }
   - { name: jq }
   - { name: nkf }
@@ -18,11 +13,11 @@ homebrew_packages:
   - { name: curl }
   - { name: vim }
   - { name: w3m }
-  - { name: ant }
   - { name: tig }
   - { name: zsh }
   - { name: peco }
   - { name: python }
+  - { name: node }
   - { name: python3 }
   - { name: pyenv-virtualenv }
   - { name: numpy, install_option: with-python3 }
@@ -33,8 +28,10 @@ homebrew_packages:
   - { name: ruby-build }
   - { name: automake }
   # - { name: go }
-  # - { name: tmux }
-  # - { name: ffmpeg, install_option: with-fdk-aac, with-ffplay, with-freetype, with-frei0r, with-libass, with-libbluray, with-libcaca, with-libquvi, with-libvidstab, with-libvo-aacenc, with-libvorbis, with-libvpx, with-opencore-amr, with-openjpeg, with-openssl, with-opus, with-rtmpdump, with-schroedinger, with-speex, with-theora, with-tools, with-x265 }
+  - { name: tmux }
+  - { name: ffmpeg, install_option: with-fdk-aac, with-ffplay, with-freetype, with-frei0r, with-libass, with-libbluray, with-libcaca, with-libquvi, with-libvidstab, with-libvo-aacenc, with-libvorbis, with-libvpx, with-opencore-amr, with-openjpeg, with-openssl, with-opus, with-rtmpdump, with-schroedinger, with-speex, with-theora, with-tools, with-x265 }
   # - { name: gnuplot, install_option: with-x11, with-png }
   # - { name: jenkins }
   # - { name: jmeter }
+  - { name: exiftool }
+  - { name: swiftlint }

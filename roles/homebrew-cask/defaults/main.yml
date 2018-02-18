@@ -10,21 +10,21 @@ homebrew_cask_packages:
   - { name: evernote }
   - { name: iterm2 }
   - { name: google-japanese-ime }
-  - { name: karabiner }
+  - { name: karabiner-elements }
   - { name: android-studio }
   - { name: mysqlworkbench }
   - { name: vagrant }
   - { name: virtualbox }
-  - { name: ifunbox }
+  # - { name: ifunbox }
   - { name: firefox }
   - { name: visual-studio-code }
-  - { name: sublime-text3 }
-  - { name: wireshark }
+  - { name: sublime-text }
+  # - { name: wireshark }
   - { name: slack }
   # - { name: inkscape }
-  # - { name: gimp }
-  - { name: mactex }
-  # - { name: thunderbird }
+  - { name: gimp }
+  # - { name: mactex }
+  - { name: thunderbird }
   # - { name: bittorrent-sync }
   # - { name: rubymine }
   # - { name: openoffice }
@@ -32,3 +32,4 @@ homebrew_cask_packages:
   # - { name: magicprefs }
   # - { name: skitch }
   # - { name: gyazo }
+  - { name: zoomus }
