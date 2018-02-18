@@ -35,3 +35,4 @@ homebrew_packages:
   # - { name: jmeter }
   - { name: exiftool }
   - { name: swiftlint }
+  - { name: carthage }
