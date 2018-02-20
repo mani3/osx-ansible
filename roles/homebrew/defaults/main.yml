@@ -36,3 +36,5 @@ homebrew_packages:
   - { name: exiftool }
   - { name: swiftlint }
   - { name: carthage }
+  - { name: cmake }
+  - { name: ninja }
