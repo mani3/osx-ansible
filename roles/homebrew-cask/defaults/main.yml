@@ -33,3 +33,6 @@ homebrew_cask_packages:
   # - { name: skitch }
   # - { name: gyazo }
   - { name: zoomus }
+  - { name: postman }
+  - { name: realm-browser }
+
