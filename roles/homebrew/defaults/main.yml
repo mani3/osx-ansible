@@ -18,10 +18,10 @@ homebrew_packages:
   - { name: peco }
   - { name: python }
   - { name: node }
-  - { name: python3 }
+  - { name: pyenv }
   - { name: pyenv-virtualenv }
-  - { name: numpy, install_option: with-python3 }
-  - { name: opencv3, install_option: with-python3 }
+  # - { name: numpy, install_option: with-python3 }
+  # - { name: opencv3, install_option: with-python3 }
   # - { name: mysql }
   # - { name: postgresql }
   - { name: rbenv }
@@ -38,3 +38,7 @@ homebrew_packages:
   - { name: carthage }
   - { name: cmake }
   - { name: ninja }
+  - { name: zlib }
+  - { name: sqlite }
+  - { name: graphviz }
+  - { name: sanemat/font/ricty }
