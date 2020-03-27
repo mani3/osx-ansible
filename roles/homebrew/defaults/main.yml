@@ -1,7 +1,4 @@
 ---
-homebrew_repositories:
-  - caskroom/cask
-  - sanemat/font
 
 homebrew_packages:
   - { name: ansible }

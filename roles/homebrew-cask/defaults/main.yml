@@ -1,7 +1,6 @@
 ---
-homebrew_cask_repositories:
-  - caskroom/cask
-  - caskroom/versions
+homebrew_repositories:
+  - homebrew/cask-fonts
 
 homebrew_cask_packages:
   - { name: alfred }
@@ -28,13 +27,15 @@ homebrew_cask_packages:
   # - { name: bittorrent-sync }
   # - { name: rubymine }
   # - { name: openoffice }
-  # - { name: blender }
+  - { name: blender }
   # - { name: magicprefs }
-  # - { name: skitch }
+  - { name: skitch }
   # - { name: gyazo }
   - { name: zoomus }
   - { name: postman }
-  - { name: realm-browser }
+  - { name: bitwarden }
   - { name: docker }
   - { name: font-hackgen }
   - { name: notion }
+  - { name: mathpix-snipping-tool }
+  - { name: google-backup-and-sync }
