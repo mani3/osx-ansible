@@ -21,13 +21,12 @@ homebrew_cask_packages:
   # - { name: wireshark }
   - { name: slack }
   # - { name: inkscape }
-  - { name: gimp }
-  - { name: mactex }
+  # - { name: gimp }
+  # - { name: mactex }
   # - { name: thunderbird }
   # - { name: bittorrent-sync }
-  # - { name: rubymine }
-  # - { name: openoffice }
-  - { name: blender }
+  - { name: rubymine }
+  # - { name: blender }
   # - { name: magicprefs }
   - { name: skitch }
   # - { name: gyazo }
@@ -39,3 +38,8 @@ homebrew_cask_packages:
   - { name: notion }
   - { name: mathpix-snipping-tool }
   - { name: google-backup-and-sync }
+  - { name: 1password }
+  - { name: figma }
+  - { name: mi }
+  - { name: discord }
+  - { name: deepl }

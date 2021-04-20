@@ -20,7 +20,7 @@ homebrew_packages:
   # - { name: numpy, install_option: with-python3 }
   # - { name: opencv3, install_option: with-python3 }
   # - { name: mysql }
-  # - { name: postgresql }
+  - { name: postgresql }
   - { name: rbenv }
   - { name: ruby-build }
   - { name: automake }
