@@ -5,32 +5,19 @@ homebrew_repositories:
 homebrew_cask_packages:
   - { name: alfred }
   - { name: google-chrome }
-  # - { name: dropbox }
-  - { name: evernote }
+  - { name: firefox }
   - { name: iterm2 }
   - { name: google-japanese-ime }
   - { name: karabiner-elements }
   - { name: android-studio }
-  # - { name: mysqlworkbench }
   - { name: vagrant }
   - { name: virtualbox }
-  # - { name: ifunbox }
-  - { name: firefox }
   - { name: visual-studio-code }
-  # - { name: sublime-text }
-  # - { name: wireshark }
   - { name: slack }
-  # - { name: inkscape }
-  # - { name: gimp }
-  # - { name: mactex }
-  # - { name: thunderbird }
-  # - { name: bittorrent-sync }
+  - { name: gimp }
   - { name: rubymine }
-  # - { name: blender }
-  # - { name: magicprefs }
+  - { name: blender }
   - { name: skitch }
-  # - { name: gyazo }
-  - { name: zoomus }
   - { name: postman }
   - { name: bitwarden }
   - { name: docker }
@@ -38,8 +25,10 @@ homebrew_cask_packages:
   - { name: notion }
   - { name: mathpix-snipping-tool }
   - { name: google-backup-and-sync }
-  - { name: 1password }
   - { name: figma }
   - { name: mi }
   - { name: discord }
   - { name: deepl }
+  - { name: zoomus }
+  - { name: youtube-dl }
+  
