@@ -33,3 +33,6 @@ homebrew_packages:
   - { name: graphviz }
   - { name: sanemat/font/ricty }
   - { name: awscli }
+  - { name: youtube-dl }
+  - { name: zsh-completions }
+  - { name: zsh-autosuggestions }

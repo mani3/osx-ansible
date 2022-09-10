@@ -2,7 +2,7 @@
 - hosts: servers
   connection: local
   roles:
+    - osx
     - homebrew
     - homebrew-cask
-    - osx
 
