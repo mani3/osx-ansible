@@ -5,34 +5,12 @@ homebrew_packages:
   - { name: jq }
   - { name: nkf }
   - { name: tree }
-  - { name: gettext }
   - { name: wget }
   - { name: curl }
-  - { name: vim }
-  - { name: w3m }
   - { name: tig }
-  - { name: zsh }
-  - { name: peco }
-  - { name: python }
-  - { name: node }
-  - { name: pyenv }
-  - { name: pyenv-virtualenv }
-  - { name: postgresql }
-  - { name: rbenv }
-  - { name: ruby-build }
-  - { name: automake }
   - { name: tmux }
   - { name: ffmpeg, install_option: with-fdk-aac, with-ffplay, with-freetype, with-frei0r, with-libass, with-libbluray, with-libcaca, with-libquvi, with-libvidstab, with-libvo-aacenc, with-libvorbis, with-libvpx, with-opencore-amr, with-openjpeg, with-openssl, with-opus, with-rtmpdump, with-schroedinger, with-speex, with-theora, with-tools, with-x265 }
-  - { name: exiftool }
-  - { name: swiftlint }
-  - { name: carthage }
-  - { name: cmake }
-  - { name: ninja }
-  - { name: zlib }
-  - { name: sqlite }
-  - { name: graphviz }
-  - { name: sanemat/font/ricty }
   - { name: awscli }
-  - { name: youtube-dl }
-  - { name: zsh-completions }
-  - { name: zsh-autosuggestions }
+  - { name: starship }
+  - { name: atuin }
+

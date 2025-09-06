@@ -4,27 +4,17 @@ homebrew_repositories:
 
 homebrew_cask_packages:
   - { name: alfred }
+  - { name: wezterm }
   - { name: google-chrome }
   - { name: firefox }
-  - { name: iterm2 }
-  - { name: google-japanese-ime }
   - { name: karabiner-elements }
-  - { name: android-studio }
-  - { name: vagrant }
   - { name: visual-studio-code }
-  - { name: slack }
   - { name: gimp }
   - { name: rubymine }
   - { name: blender }
-  - { name: skitch }
-  - { name: postman }
   - { name: bitwarden }
   - { name: docker }
-  - { name: font-hackgen }
+  - { name: font-hackgen-nerd }
   - { name: notion }
-  - { name: mathpix-snipping-tool }
   - { name: google-drive }
-  - { name: figma }
-  - { name: mi }
-  - { name: discord }
-  - { name: deepl }
+  - { name: spotify }
