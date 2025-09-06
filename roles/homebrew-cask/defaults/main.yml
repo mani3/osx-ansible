@@ -3,7 +3,6 @@ homebrew_repositories:
   - homebrew/cask-fonts
 
 homebrew_cask_packages:
-  - { name: alfred }
   - { name: wezterm }
   - { name: google-chrome }
   - { name: firefox }
@@ -18,3 +17,4 @@ homebrew_cask_packages:
   - { name: notion }
   - { name: google-drive }
   - { name: spotify }
+  - { name: obsidian }

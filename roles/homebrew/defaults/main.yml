@@ -13,4 +13,5 @@ homebrew_packages:
   - { name: awscli }
   - { name: starship }
   - { name: atuin }
-
+  - { name: mise }
+  - { name: gh }
